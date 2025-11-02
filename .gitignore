@@ -36,12 +36,6 @@ env/
 *~
 .DS_Store
 
-# PCAP files (large, but keep structure)
-*.pcap
-*.pcapng
-# Keep the directory
-!pcap_files/.gitkeep
-
 # Logs
 *.log
 logs/
@@ -50,13 +44,6 @@ logs/
 *.tmp
 *.temp
 .cache/
-
-# Evidence (screenshots - may be large)
-*.png
-*.jpg
-*.jpeg
-# Keep directory structure
-!evidence/.gitkeep
 
 # Evidence/analysis outputs
 evidence/*.csv
