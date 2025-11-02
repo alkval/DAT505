@@ -1,0 +1,14 @@
+{
+  "spoof_ip": "192.168.1.100",
+  "mode": "blacklist",
+  "targets": [
+    "example.com",
+    "www.example.com",
+    "test.com",
+    "www.google.com",
+    "facebook.com",
+    "www.facebook.com",
+    "twitter.com",
+    "www.twitter.com"
+  ]
+}

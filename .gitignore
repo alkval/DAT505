@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PCAP files (large, but keep structure)
+*.pcap
+*.pcapng
+# Keep the directory
+!pcap_files/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Evidence (screenshots - may be large)
+*.png
+*.jpg
+*.jpeg
+# Keep directory structure
+!evidence/.gitkeep
+
+# Evidence/analysis outputs
+evidence/*.csv
+evidence/*.txt
+evidence/*.log
+
+# Report drafts
+report/*.docx
+report/*.aux
+report/*.out
+# Keep final PDF
+!report/*.pdf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

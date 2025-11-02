@@ -1,0 +1,7 @@
+# Network Security Tools - Python Dependencies
+
+# Core packet manipulation
+scapy>=2.5.0
+
+# Web server for DNS spoofing demonstration
+flask>=2.3.0
